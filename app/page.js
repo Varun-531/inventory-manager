@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="container bg-red-50 mx-auto space-y-4">
+      <div className="container mx-auto space-y-10">
+        <SearchBar />
         <AddProducts />
         <CurrentProducts />
-        <SearchBar />
       </div>
     </>
   );
